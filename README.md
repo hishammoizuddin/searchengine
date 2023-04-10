@@ -1,6 +1,6 @@
 # Search Engine Optimization
 
-The search engine optimizer is a C++ implementation that leverages the concept of inverted indexing for efficient text search. It reads and processes data from a text file and provides a user interface to interact with the search engine. The primary purpose of this project is to demonstrate competency in data processing, file I/O, data structures, and algorithms.
+The search engine optimizer is a console-based C++ implementation that leverages the concept of inverted indexing for efficient text search. It reads and processes data from a text file and provides a user interface to interact with the search engine. The primary purpose of this project is to demonstrate competency in data processing, file I/O, data structures, and algorithms.
 
 *Inverted index* is a data structure that stores a mapping from words or terms to their locations in a set of documents. It allows for fast and efficient search, as it enables the search engine to quickly find documents containing a specific term without scanning through the entire text. In this project, an inverted index is represented using a C++ std::map with std::string keys and std::set values, where the key is a term and the value is a set of URLs containing that term.
 
@@ -60,10 +60,3 @@ To build and run the program, follow these steps:
 2. The program will build an index and display the number of indexed pages and unique terms.
 3. Enter a query sentence to search for matching URLs. You can use "+" or "-" before a term to include or exclude it from the search results.
 4. Press Enter to quit the program.
-
-
-
-
-
-
-

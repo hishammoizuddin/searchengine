@@ -41,7 +41,7 @@ To build and run the program, follow these steps:
 
 3. Run the program:
 
-`make run`
+`make run` or `./program.exe`
 
 4. (Optional) If you want to clean the build files:
 

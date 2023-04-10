@@ -9,7 +9,7 @@ The search engine optimizer is a console-based C++ implementation that leverages
 The search engine project consists of three main components:
 
 1. A header file `search.h` containing the search engine implementation with several functions for processing and searching data.
-2. A `main.cpp` file that calls the search engine function and provides a user interface to interact with the search engine.
+2. A `main.cpp` file that calls the search engine function.
 3. A Makefile to compile and run the program.
 
 The search engine uses an inverted index data structure to organize the data and enable efficient search. It processes text data from a file, tokenizes it, and indexes it in a map data structure. The user can then provide search queries to find matching URLs.

@@ -4,8 +4,6 @@ The search engine optimizer is a console-based C++ implementation that leverages
 
 *Inverted index* is a data structure that stores a mapping from words or terms to their locations in a set of documents. It allows for fast and efficient search, as it enables the search engine to quickly find documents containing a specific term without scanning through the entire text. In this project, an inverted index is represented using a C++ std::map with std::string keys and std::set values, where the key is a term and the value is a set of URLs containing that term.
 
-<img src="https://user-images.githubusercontent.com/78191578/230955575-f4a1389f-b1c9-4121-b354-20330341f5ec.gif" width=60% height=60%>
-
 ## Overview
 
 The search engine project consists of three main components:
@@ -15,6 +13,8 @@ The search engine project consists of three main components:
 3. A Makefile to compile and run the program.
 
 The search engine uses an inverted index data structure to organize the data and enable efficient search. It processes text data from a file, tokenizes it, and indexes it in a map data structure. The user can then provide search queries to find matching URLs.
+
+<img src="https://user-images.githubusercontent.com/78191578/230955575-f4a1389f-b1c9-4121-b354-20330341f5ec.gif" width=60% height=60%>
 
 The project showcases skills in:
 

@@ -14,7 +14,7 @@ The search engine project consists of three main components:
 
 The search engine uses an inverted index data structure to organize the data and enable efficient search. It processes text data from a file, tokenizes it, and indexes it in a map data structure. The user can then provide search queries to find matching URLs.
 
-<img src="https://user-images.githubusercontent.com/78191578/230955575-f4a1389f-b1c9-4121-b354-20330341f5ec.gif" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/78191578/230955575-f4a1389f-b1c9-4121-b354-20330341f5ec.gif" width=70% height=70%>
 
 The project showcases skills in:
 
